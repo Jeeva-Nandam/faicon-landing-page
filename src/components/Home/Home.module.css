@@ -1,0 +1,297 @@
+/* .container {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 1.5rem 0.5rem 4rem 0.5rem;
+  background: #f7fbfe;
+}
+
+.purpose {
+  padding: 1rem 0;
+}
+
+.heading {
+  font-size: 1.25rem;
+  color: #34568b;
+  margin-bottom: 0.8rem;
+}
+
+.desc {
+  font-size: 1rem;
+  color: #444;
+}
+
+.platforms {
+  margin: 1.5rem 0;
+}
+
+.platformCard {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(52,86,139,0.08);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.platformIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.platformTitle {
+  color: #555;
+  font-size: 0.92rem;
+}
+
+.cmsTitle {
+  font-weight: 600;
+  color: #34568b;
+  margin-bottom: 0.5rem;
+}
+
+.installButton {
+  margin-top: 0.25rem;
+  background: #34568b;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.4rem 1.2rem;
+  font-size: 0.96rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.howItWorks {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.howItWorks h2 {
+  font-size: 1.05rem;
+  color: #34568b;
+  margin-bottom: 0.7rem;
+}
+
+.steps {
+  padding-left: 1.1em;
+  color: #333;
+}
+
+.stepTitle {
+  font-weight: 500;
+  color: #34568b;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1.2rem 0.15rem 2rem 0.15rem;
+    border-radius: 0;
+  }
+
+  .platformCard {
+    flex-direction: row;
+    gap: 0.7rem;
+    padding: 0.9rem;
+  }
+} */
+
+.container {
+  
+  max-width: 430px;
+  margin: 8px auto;
+  padding: 1.5rem 0.5rem 4rem 0.5rem;
+  background: #f7fbfe;
+}
+  
+
+/* .flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+} */
+.purpose {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.heading {
+  font-size: 1.25rem;
+  color: #34568b;
+  margin-bottom: 0.8rem;
+}
+
+.desc {
+  font-size: 1rem;
+  color: #444;
+}
+
+.platforms {
+  margin: 1.5rem 0;
+}
+
+.platformCard {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(52,86,139,0.08);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.platformIcon {
+  width: 40px;
+  height: 40px;
+  background-color: #34568b;
+  border-radius: 40px;
+    padding: 0.5rem;
+  
+}
+
+.platformTitle {
+  color: #555;
+  font-size: 0.92rem;
+}
+
+.cmsTitle {
+  font-weight: 600;
+  color: #34568b;
+  margin-bottom: 0.5rem;
+}
+
+.installButton {
+  margin-top: 0.25rem;
+  background: #34568b;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.4rem 1.2rem;
+  font-size: 0.96rem;
+  cursor: pointer;
+  font-weight: 500;
+  margin: auto;
+}
+
+/* .howItWorks {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.howItWorks h2 {
+  font-size: 1.05rem;
+  color: #34568b;
+  margin-bottom: 0.7rem;
+}
+
+.steps {
+  padding-left: 1.1em;
+  color: #333;
+}
+
+.stepTitle {
+  font-weight: 500;
+  color: #34568b;
+} */
+
+.howItWorks {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.howItWorks h2 {
+  font-size: 1.05rem;
+  color: #000;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.stepCard {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.iconWrapper {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #306ee1, #1d4c93);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stepTitle {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #1d4c93;
+  margin-bottom: 0.2rem;
+}
+
+.stepText {
+  font-size: 0.88rem;
+  color: #666;
+  margin: 0;
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 100vw;
+    padding: 1.2rem 0.05rem 2rem 0.05rem;
+    border-radius: 0;
+  }
+  .platformCard {
+    flex-direction: row;
+    gap: 0.7rem;
+    padding: 0.9rem;
+  }
+}
+
+@media (min-width: 601px) {
+  .container {
+    max-width: 520px;
+    padding: 2rem 1.3rem;
+    border-radius: 18px;
+  }
+}
+
+@media (min-width: 850px) {
+  .container {
+    max-width: 760px;
+    padding: 3rem 4rem;
+  }
+  .platforms {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+  .platformCard {
+    flex: 1 1 45%;
+    max-width: 340px;
+  }
+}

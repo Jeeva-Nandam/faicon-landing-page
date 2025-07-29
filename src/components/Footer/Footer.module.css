@@ -1,0 +1,329 @@
+.footer {
+  background: #1e3766;
+  color: #fff;
+  padding: 2.5rem 1.5rem 1rem 1.5rem;
+  font-size: 0.97rem;
+}
+
+.leftColumn {
+  margin-bottom: 2rem;
+}
+
+.rightColumn {
+  margin-bottom: 2rem;
+}
+
+.sectionGroup {
+  margin-bottom: 2rem;
+}
+
+.logo {
+  height: 34px;
+  margin-bottom: 0.7rem;
+}
+
+.description {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+h4 {
+  color: #69d3fc;
+  margin-bottom: 0.65rem;
+  font-size: 1.08rem;
+  font-weight: 600;
+}
+
+.contactSection,
+.serviceSection,
+.siteLinks {
+  margin-bottom: 2rem;
+}
+
+.contactSection p {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+a,
+.email {
+  color: #bedaff;
+  text-decoration: underline;
+}
+
+.serviceSection ul,
+.siteLinks ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.serviceSection li,
+.siteLinks li {
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+.quoteSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.quoteButton {
+  background-color: transparent;
+  color: #e1e8f0;
+  border: 2px solid #69d3fc;
+  padding: 0.8rem 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.quoteButton:hover {
+  background-color: #69d3fc;
+  color: #1e3766;
+}
+
+.or {
+  color: #aeefff;
+  margin-bottom: 1rem;
+}
+
+/* Social Icons */
+.socialLinks {
+  margin-top: 0.6rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.socialIcon {
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  background: #69d3fc;
+  color: #1e3766;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.socialIcon:hover {
+  background: #4cc0f0;
+  transform: translateY(-2px);
+}
+
+/* Payment Logos */
+.paymentSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0 1rem;
+  flex-wrap: wrap;
+}
+
+.paymentSection img {
+  height: 36px;
+  object-fit: contain;
+}
+
+/* Bottom Note with Partner Branding */
+.bottomNote {
+  text-align: center;
+  color: #b9e2fd;
+  font-size: 0.85rem;
+  padding-bottom: 1.5rem;
+  line-height: 1.6;
+  margin-top: 2rem;
+  border-top: 1px solid rgba(105, 211, 252, 0.2);
+  padding-top: 1.5rem;
+}
+
+.reactive {
+  color: #69d3fc;
+  font-weight: 600;
+  padding: 0 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.it {
+  background: white;
+  color: #1e3766;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 2px 5px;
+  border-radius: 4px;
+  margin-left: 3px;
+}
+
+/* Tablet View - 2 Columns */
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer {
+    padding: 3rem 2rem 1.5rem 2rem;
+  }
+  
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  .leftColumn {
+    margin-bottom: 0;
+  }
+
+  .rightColumn {
+    margin-bottom: 0;
+  }
+
+  .sectionGroup {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .quoteSection {
+    grid-column: 1 / -1;
+    margin-top: 2rem;
+  }
+
+  .paymentSection {
+    grid-column: 1 / -1;
+    margin-top: 1rem;
+  }
+
+  .bottomNote {
+    grid-column: 1 / -1;
+  }
+}
+
+/* Desktop View - 3 Columns */
+@media (min-width: 992px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr 1.2fr;
+    gap: 3rem;
+    align-items: start;
+    padding: 4rem 3rem 2rem 3rem;
+    font-size: 1rem;
+  }
+
+  .leftColumn {
+    max-width: 450px;
+    margin-bottom: 0;
+  }
+
+  .logo {
+    height: 40px;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  /* Middle Column - Contact & Services */
+  .rightColumn {
+    display: contents; /* This breaks the rightColumn container */
+  }
+
+  .sectionGroup {
+    display: contents; /* This breaks the sectionGroup container */
+  }
+
+  .contactSection {
+    margin-bottom: 0;
+  }
+
+  .serviceSection {
+    margin-bottom: 0;
+  }
+
+  .siteLinks {
+    grid-column: 3;
+    grid-row: 1;
+    margin-bottom: 0;
+  }
+
+  /* Quote Section spans all columns */
+  .quoteSection {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .quoteButton {
+    margin-bottom: 0;
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+  }
+
+  .or {
+    margin-bottom: 0;
+    white-space: nowrap;
+  }
+
+  .socialLinks {
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  /* Payment Section spans all columns */
+  .paymentSection {
+    grid-column: 1 / -1;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+
+  /* Bottom Note spans all columns */
+  .bottomNote {
+    grid-column: 1 / -1;
+    margin-top: 1.5rem;
+  }
+}
+
+/* Large Desktop View - Enhanced spacing */
+@media (min-width: 1200px) {
+  .footer {
+    padding: 5rem 4rem 3rem 4rem;
+    gap: 4rem;
+  }
+
+  .leftColumn {
+    max-width: 500px;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .quoteSection {
+    margin-top: 4rem;
+    gap: 3rem;
+  }
+
+  .quoteButton {
+    padding: 1.2rem 3rem;
+    font-size: 1.1rem;
+  }
+}

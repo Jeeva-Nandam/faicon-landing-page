@@ -1,0 +1,33 @@
+.searchBarWrapper {
+  display: flex;
+  align-items: center;
+  background: #f3f6f9;
+  border-radius: 16px;
+  border: 1.5px solid #e5eaf2;
+  padding: 0.35rem 0.75rem;
+  margin: 1rem 0 0.75rem 0;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 1.09rem;
+  color: #333;
+  outline: none;
+  padding-left: 0.2rem;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  color: #b6b8bb;
+  cursor: pointer;
+  margin-left: 0.4rem;
+  line-height: 1;
+}
+
+.closeButton:hover {
+  color: #666879;
+}
